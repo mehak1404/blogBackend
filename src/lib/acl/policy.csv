@@ -1,0 +1,55 @@
+p, user, /users, GET
+p, user, /users/:username, GET
+p, user, /auth/logout, GET
+p, guest, /auth/login, POST
+p, admin, /auth/login, POST
+
+p, guest, /users/register, POST
+p, admin, /compaigns/add, POST
+p, admin, /compaigns, GET
+p, admin, /compaigns/:appid, GET
+p, admin, /compaigns/update/:appid, PUT
+p, admin, /compaigns/delete/:appid, DELETE
+p, admin, /getusers, GET
+p, admin, /auth/me, GET
+p, admin, /advertiser/add, POST
+p, admin, /advertisers?filter=true&isactive=true, GET
+p, admin, /advertisers, GET
+p, admin, /blog/add, POST
+p, admin, /blogs, GET
+p, user, /blogs, GET
+p, user, /blog/suggestion, GET
+p, user, /blog/trending, GET
+p, user, /blog/popular, GET
+p, admin, /blog/keywords, GET
+p, user, /blog/keywords, GET
+p, user, /blog/latest, GET
+p, user, /blog/filter, GET
+p, user, /blog/filter?id=1, GET
+p, user, /blogs/filter, GET
+p, user, /blog/:slug, GET
+p, admin, /blog/:slug, GET
+
+p, admin, /blog/:id, PUT
+p, admin, /blog/:id, DELETE
+p, admin, /delete, DELETE
+p, admin, /status/:id, PUT
+p, admin, /preview_blog/add, POST
+p, admin, /preview_blog/:slug, GET
+p, guest, /preview_blog/:slug, GET
+p, user , /comment/add, POST
+p, admin , /comment/add, POST
+p, user , /comment/:id, GET
+p, admin , /comment/:id, GET
+p, user , /comment/delete/:id, DELETE
+p, admin , /comment/delete/:id, DELETE
+p, user, /like, POST
+p, admin, /like, POST
+p, user, /likes/:blogId, GET
+p, admin, /likes/:blogId, GET
+p, user, /likes/info/:blogId, GET
+p, admin, /likes/info/:blogId, GET
+p, user, /views/:blogId, GET
+p, admin, /views/:blogId, GET
+p, user, /views/info/:blogId, GET
+p, admin, /views/info/:blogId, GET

@@ -1,0 +1,19 @@
+{
+  "name": "PollPe",
+  "version": "0.1.0",
+  "description": "Somthing test API Documentation",
+  "title": "PollPe",
+  "url": "/api",
+  "header": {
+    "title": "PollPe",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Footer",
+    "filename": "footer.md"
+  }
+}
+
+
+
+
